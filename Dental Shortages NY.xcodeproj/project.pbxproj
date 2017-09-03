@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC147C6A1F0BD2D5003B6D3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC147C691F0BD2D5003B6D3A /* AppDelegate.swift */; };
+		AC147C6C1F0BD2D5003B6D3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC147C6B1F0BD2D5003B6D3A /* ViewController.swift */; };
+		AC147C6F1F0BD2D5003B6D3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC147C6D1F0BD2D5003B6D3A /* Main.storyboard */; };
+		AC147C711F0BD2D5003B6D3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC147C701F0BD2D5003B6D3A /* Assets.xcassets */; };
+		AC147C741F0BD2D5003B6D3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC147C721F0BD2D5003B6D3A /* LaunchScreen.storyboard */; };
+		AC147C7F1F0BD2D5003B6D3A /* Dental_Shortages_NYTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC147C7E1F0BD2D5003B6D3A /* Dental_Shortages_NYTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC147C7B1F0BD2D5003B6D3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC147C5E1F0BD2D4003B6D3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC147C651F0BD2D4003B6D3A;
+			remoteInfo = "Dental Shortages NY";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC147C661F0BD2D5003B6D3A /* Dental Shortages NY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dental Shortages NY.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC147C691F0BD2D5003B6D3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC147C6B1F0BD2D5003B6D3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC147C6E1F0BD2D5003B6D3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC147C701F0BD2D5003B6D3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC147C731F0BD2D5003B6D3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC147C751F0BD2D5003B6D3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC147C7A1F0BD2D5003B6D3A /* Dental Shortages NYTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dental Shortages NYTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC147C7E1F0BD2D5003B6D3A /* Dental_Shortages_NYTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dental_Shortages_NYTests.swift; sourceTree = "<group>"; };
+		AC147C801F0BD2D5003B6D3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC147C631F0BD2D4003B6D3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC147C771F0BD2D5003B6D3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC147C5D1F0BD2D4003B6D3A = {
+			isa = PBXGroup;
+			children = (
+				AC147C681F0BD2D5003B6D3A /* Dental Shortages NY */,
+				AC147C7D1F0BD2D5003B6D3A /* Dental Shortages NYTests */,
+				AC147C671F0BD2D5003B6D3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC147C671F0BD2D5003B6D3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC147C661F0BD2D5003B6D3A /* Dental Shortages NY.app */,
+				AC147C7A1F0BD2D5003B6D3A /* Dental Shortages NYTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC147C681F0BD2D5003B6D3A /* Dental Shortages NY */ = {
+			isa = PBXGroup;
+			children = (
+				AC147C691F0BD2D5003B6D3A /* AppDelegate.swift */,
+				AC147C6B1F0BD2D5003B6D3A /* ViewController.swift */,
+				AC147C6D1F0BD2D5003B6D3A /* Main.storyboard */,
+				AC147C701F0BD2D5003B6D3A /* Assets.xcassets */,
+				AC147C721F0BD2D5003B6D3A /* LaunchScreen.storyboard */,
+				AC147C751F0BD2D5003B6D3A /* Info.plist */,
+			);
+			path = "Dental Shortages NY";
+			sourceTree = "<group>";
+		};
+		AC147C7D1F0BD2D5003B6D3A /* Dental Shortages NYTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC147C7E1F0BD2D5003B6D3A /* Dental_Shortages_NYTests.swift */,
+				AC147C801F0BD2D5003B6D3A /* Info.plist */,
+			);
+			path = "Dental Shortages NYTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC147C651F0BD2D4003B6D3A /* Dental Shortages NY */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC147C831F0BD2D5003B6D3A /* Build configuration list for PBXNativeTarget "Dental Shortages NY" */;
+			buildPhases = (
+				AC147C621F0BD2D4003B6D3A /* Sources */,
+				AC147C631F0BD2D4003B6D3A /* Frameworks */,
+				AC147C641F0BD2D4003B6D3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dental Shortages NY";
+			productName = "Dental Shortages NY";
+			productReference = AC147C661F0BD2D5003B6D3A /* Dental Shortages NY.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC147C791F0BD2D5003B6D3A /* Dental Shortages NYTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC147C861F0BD2D5003B6D3A /* Build configuration list for PBXNativeTarget "Dental Shortages NYTests" */;
+			buildPhases = (
+				AC147C761F0BD2D5003B6D3A /* Sources */,
+				AC147C771F0BD2D5003B6D3A /* Frameworks */,
+				AC147C781F0BD2D5003B6D3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC147C7C1F0BD2D5003B6D3A /* PBXTargetDependency */,
+			);
+			name = "Dental Shortages NYTests";
+			productName = "Dental Shortages NYTests";
+			productReference = AC147C7A1F0BD2D5003B6D3A /* Dental Shortages NYTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC147C5E1F0BD2D4003B6D3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "ben blue";
+				TargetAttributes = {
+					AC147C651F0BD2D4003B6D3A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AD327E28HD;
+						ProvisioningStyle = Automatic;
+					};
+					AC147C791F0BD2D5003B6D3A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC147C651F0BD2D4003B6D3A;
+					};
+				};
+			};
+			buildConfigurationList = AC147C611F0BD2D4003B6D3A /* Build configuration list for PBXProject "Dental Shortages NY" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC147C5D1F0BD2D4003B6D3A;
+			productRefGroup = AC147C671F0BD2D5003B6D3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC147C651F0BD2D4003B6D3A /* Dental Shortages NY */,
+				AC147C791F0BD2D5003B6D3A /* Dental Shortages NYTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC147C641F0BD2D4003B6D3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC147C741F0BD2D5003B6D3A /* LaunchScreen.storyboard in Resources */,
+				AC147C711F0BD2D5003B6D3A /* Assets.xcassets in Resources */,
+				AC147C6F1F0BD2D5003B6D3A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC147C781F0BD2D5003B6D3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC147C621F0BD2D4003B6D3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC147C6C1F0BD2D5003B6D3A /* ViewController.swift in Sources */,
+				AC147C6A1F0BD2D5003B6D3A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC147C761F0BD2D5003B6D3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC147C7F1F0BD2D5003B6D3A /* Dental_Shortages_NYTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC147C7C1F0BD2D5003B6D3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC147C651F0BD2D4003B6D3A /* Dental Shortages NY */;
+			targetProxy = AC147C7B1F0BD2D5003B6D3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC147C6D1F0BD2D5003B6D3A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC147C6E1F0BD2D5003B6D3A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC147C721F0BD2D5003B6D3A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC147C731F0BD2D5003B6D3A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC147C811F0BD2D5003B6D3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC147C821F0BD2D5003B6D3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC147C841F0BD2D5003B6D3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AD327E28HD;
+				INFOPLIST_FILE = "Dental Shortages NY/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Dental-Shortages-NY";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC147C851F0BD2D5003B6D3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AD327E28HD;
+				INFOPLIST_FILE = "Dental Shortages NY/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Dental-Shortages-NY";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC147C871F0BD2D5003B6D3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Dental Shortages NYTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Dental-Shortages-NYTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dental Shortages NY.app/Dental Shortages NY";
+			};
+			name = Debug;
+		};
+		AC147C881F0BD2D5003B6D3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Dental Shortages NYTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Dental-Shortages-NYTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dental Shortages NY.app/Dental Shortages NY";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC147C611F0BD2D4003B6D3A /* Build configuration list for PBXProject "Dental Shortages NY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC147C811F0BD2D5003B6D3A /* Debug */,
+				AC147C821F0BD2D5003B6D3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC147C831F0BD2D5003B6D3A /* Build configuration list for PBXNativeTarget "Dental Shortages NY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC147C841F0BD2D5003B6D3A /* Debug */,
+				AC147C851F0BD2D5003B6D3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC147C861F0BD2D5003B6D3A /* Build configuration list for PBXNativeTarget "Dental Shortages NYTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC147C871F0BD2D5003B6D3A /* Debug */,
+				AC147C881F0BD2D5003B6D3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC147C5E1F0BD2D4003B6D3A /* Project object */;
+}
